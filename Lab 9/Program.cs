@@ -58,7 +58,7 @@ namespace _9_4HTML
             UnorderedList list = new UnorderedList();
             StringBuilder sb = new StringBuilder();
 
-            Console.WriteLine("Enter text for HTML header.");
+            Console.WriteLine("Enter text for Html header.");
             string headerElement = header.CreateHeader(Console.ReadLine());
             string[] listItems = new string[3];
 
